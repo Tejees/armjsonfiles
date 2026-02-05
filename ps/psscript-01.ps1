@@ -86,7 +86,7 @@ InstallVSCode
 InstallModernVmValidator
 
 #Install python
-choco install python
+choco install python313
 choco install visualstudio2022enterprise -y
 sleep 60
 
