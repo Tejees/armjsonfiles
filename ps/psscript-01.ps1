@@ -1,4 +1,4 @@
-PParam (
+Param (
     [Parameter(Mandatory = $true)]
     [string]
     $AzureUserName,
