@@ -85,7 +85,7 @@ InstallAzCLI
 InstallVSCode
 InstallModernVmValidator
 
-#Install visualstudio2022
+#Install python
 choco install python
 choco install visualstudio2022enterprise -y
 sleep 60
