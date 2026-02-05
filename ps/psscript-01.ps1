@@ -85,11 +85,6 @@ InstallAzCLI
 InstallVSCode
 InstallModernVmValidator
 
-#Install python
-choco install python --version=3.10.11 -y
-choco install visualstudio2022enterprise -y
-sleep 60
-
 #Download LogonTask
 $WebClient = New-Object System.Net.WebClient
 $WebClient.DownloadFile("https://raw.githubusercontent.com/Tejees/armjsonfiles/refs/heads/main/ps/logontask-03.ps1","C:\LabFiles\logontask-01.ps1")
